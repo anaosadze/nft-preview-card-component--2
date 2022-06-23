@@ -1,70 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!--------------------------------------------------------------->
-  <!--------------------------------------------------------------->
-  <!--------------------------------------------------------------->
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Andreas Remdt" />
-
-    <title>Frontend Mentor | NFT preview card component</title>
-
-    <!-------------------icon-image----------------------------->
-    <!---------------------------------------------------------->
+    <title>NFT card preview</title>
+    <!-----------------  links ------------------------->
+    <link href="style.css" rel="stylesheet" />
     <link
       rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="https://cdn.glitch.global/776cde67-4b3d-41e6-8331-0609616c0a59/favicon-32x32.png?v=1655444214389"
     />
-    <!---------------css-conector-------------------------------->
-    <!----------------------------------------------------------->
-    <link rel="stylesheet" href="./style.css" />
   </head>
-  <!--------------------------------------------------------------->
-  <!--------------------------------------------------------------->
-  <!--------------------------------------------------------------->
+  <!--------------------------------------------------->
+  <!--------------------------------------------------->
   <body>
-    <main class="nft-preview">
-      <!------------------------image----------------------------->
-      <!---------------------------------------------------------->
-      <a class="image-link" href="#" aria-label="Open Equilibrium collection">
-        <img class="image" src="./images/image-equilibrium.jpg" alt="Equilibrium
-        #3429" width="302" height="302"
-      </a>
-      <!------------------------h1-------------------------------->
-      <!---------------------------------------------------------->
-      <h1 class="title">
-        <a href="#" data-hover="Equilibrium #3429" class="link"
-          >Equilibrium #3429</a
-        >
-      </h1>
-      <!--------------------Paragraph----------------------------->
-      <!---------------------------------------------------------->
-      <p>Our Equilibrium collection promotes balance and calm.</p>
-      <!------------------bottom-text----------------------------->
-      <!---------------------------------------------------------->
-      <div class="details">
-        <span class="price">0.041 ETH</span>
-        <span class="date">3 days left</span>
-      </div>
-      <!-------------------bottom-image--------------------------->
-      <!---------------------------------------------------------->
-      <footer class="footer">
-        <img
-          class="avatar"
-          src="./images/image-avatar.png"
-          alt="Avatar of Jules Wyvern"
-          width="33"
-          height="33"
-        />
-        <!-------------------paragraph----------------------------->
-        <!--------------------------------------------------------->
-        <p class="creator">
-          Creation of <a href="#" data-hover="Jules Wyvern">Jules Wyvern</a>
+    <div class="container">
+      <!--------------------------------------------------->
+      <header>
+        <div class="header">
+          <img
+            src="./images/image-equilibrium.jpg"
+            width="302"
+            height="302"
+            alt="colorful cube"
+            class="top-image"
+          />
+          <!--------------------------------------------------->
+          <div class="middle-box"></div>
+          <!--------------------------------------------------->
+          <div class="eye">
+            <img
+              src="./images/icon-view.svg"
+              alt="eye"
+              width="44px"
+              height="40px"
+            />
+          </div>
+        </div>
+      </header>
+      <!--------------------------------------------------->
+      <!--------------------------------------------------->
+      <article>
+        <h1 class="header-text">Equilibrium #3429</h1>
+        <p class="middle-text">
+          Our Equilibrium collection promotes balance and calm.
         </p>
-      </footer>
-    </main>
+      </article>
+      <!--------------------------------------------------->
+      <!--------------------------------------------------->
+      <div class="icon-container">
+        <div class="eth-container">
+          <img
+            src="./images/icon-ethereum.svg"
+            alt="Icon of ethereum"
+            width="11px"
+            height="18px"
+          />
+          <p class="p1">0.041 ETH</p>
+          <!--------------------------------------------------->
+        </div>
+        <div class="clock-container">
+          <img
+            src="./images/icon-clock.svg"
+            width="13.33"
+            height="13.33"
+            alt="clock icon"
+          />
+          <p class="p2">3 days left</p>
+        </div>
+      </div>
+      <!--------------------------------------------------->
+      <!--------------------------------------------------->
+      <div class="footer">
+        <img src="./images/image-avatar.png"" alt="author-image" width="33"
+        height="33" class="author-image" />
+        <p class="p3">Creation of</p>
+        <p class="p4">Jules Wyvern</p>
+      </div>
+    </div>
   </body>
 </html>
