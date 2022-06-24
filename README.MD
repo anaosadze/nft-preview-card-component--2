@@ -76,7 +76,7 @@ header:hover .eye {
 
 my next challenge is [Order Summary Component](https://www.figma.com/file/6p3ofsbwTEuB4gJFgqr3KV/order-summary-component?node-id=0%3A82)
 
-when I do it , solution link will be right [here]()
+when I do it , solution link will be right [here](https://github.com/anaosadze/order-summary-component.git)
 
 previous challenge was [ QR code component](https://github.com/anaosadze/QR-code-component.git)
 
